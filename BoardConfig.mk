@@ -135,7 +135,7 @@ BOARD_USES_METADATA_PARTITION := true
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 
 # TWRP Configuration
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 #TW_Y_OFFSET := 100
 #TW_H_OFFSET := -100
 RECOVERY_SDCARD_ON_DATA := true
