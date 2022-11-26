@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FDEVICE="X01BD"
+FDEVICE="RMX3491"
 
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep $FDEVICE)
@@ -61,7 +61,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     
 	# R11.1
 	export FOX_BUILD_TYPE="Beta"
-	export OF_MAINTAINER="Sushrut1101"
+	export OF_MAINTAINER="icikiwir"
 	export FOX_VERSION="R11.1_1"
 
 	export FOX_BUGGED_AOSP_ARB_WORKAROUND="1510672800"; # Tue Nov 14 15:20:00 GMT 2017
